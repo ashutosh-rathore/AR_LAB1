@@ -13,4 +13,3 @@ provider "azurerm" {
 	features {}
 #it can be initial configuration data
 }
-
