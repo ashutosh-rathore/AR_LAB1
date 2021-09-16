@@ -3,8 +3,8 @@ resource "azurerm_linux_virtual_machine" "ARmachine" {
   resource_group_name             = azurerm_resource_group.RG.name
   location                        = azurerm_resource_group.RG.location
   size                            = "Standard_D2s_v3"
-  admin_username                  = "ashutosh"
-  admin_password                  = "ashu@123"
+  admin_username                  = "a******"
+  admin_password                  = "a***@1**"
   disable_password_authentication = false
   network_interface_ids = [
     azurerm_network_interface.ARnic.id,
